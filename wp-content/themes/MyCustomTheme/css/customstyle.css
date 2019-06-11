@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url('wp-content/themes/MyCustomTheme/fonts/BYekan.eot');
+    src: url('wp-content/themes/MyCustomTheme/fonts/BYekan.eot?#iefix') format('embedded-opentype'),
+         url('wp-content/themes/MyCustomTheme/fonts/BYekan.woff') format('woff'),
+         url('wp-content/themes/MyCustomTheme/fonts/BYekan.ttf') format('truetype'),
+         url('wp-content/themes/MyCustomTheme/fonts/BYekan.svg') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+	
+	}
+	@font-face {
+    font-family: 'BTitr';
+    src: url('wp-content/themes/MyCustomTheme/fonts/BTitrBold.eot');
+    src: url('wp-content/themes/MyCustomTheme/fonts/BTitrBold.eot?#iefix') format('embedded-opentype'),
+         url('wp-content/themes/MyCustomTheme/fonts/BTitrBold.woff') format('woff'),
+         url('wp-content/themes/MyCustomTheme/fonts/BTitrBold.ttf') format('truetype'),
+         url('wp-content/themes/MyCustomTheme/fonts/BTitrBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+	
+	}
+h1, h2, h3, h4, p, span {
+	font-family: BYekan;
+}
+.pagination > li > span.current {
+	    background-color: #207b3c;
+    color: white;
+}
+.col_half {
+	width: 46%;
+}
+.heading-block {
+    margin-bottom: 0px;
+}
+
+.fbox-desc {
+	/*border: 2px black solid;*/
+}
+.list-group {
+	margin-bottom: 0px;
+	direction:rtl;
+	font-family:BYekan;
+}
+#button-list-group-item {
+	width: 100% !important;
+    margin: 0;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+#news-entry:hover {
+	background-color:#d6d6d652;
+}
+
+ #list-filter.active a {
+	color: #FFF !important;
+	background-color: #EB9C4D !important;
+}
+#list-filter:hover a {
+	background-color: #EB9C4D !important;
+	color: #FFF !important;
+}
+
+::-webkit-input-placeholder { 
+font-family: BYekan;
+}
